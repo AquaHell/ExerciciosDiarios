@@ -7,7 +7,7 @@ public class Build {
 	int numJogos=0;
 	
 	public String Build (String no) {
-		nome = no;
+		nome = no; 
 		return nome;
 	}
 

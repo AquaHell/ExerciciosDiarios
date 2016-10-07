@@ -36,7 +36,7 @@ public class Treino {
 		System.out.println("Nome do Clube");
 		nome = sc.next();
 		Clube.setNome(nome);
-
+ 
 		System.out.println("Pontos em Casa do Clube");
 		pontosCasa = sc.nextInt();
 		Clube.setPontosCasa(pontosCasa);

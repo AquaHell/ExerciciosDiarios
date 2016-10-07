@@ -6,7 +6,7 @@ public class Treino {
 	}
 
 	private void exercicio1(){
-		
+	
 	}
 	
 	
