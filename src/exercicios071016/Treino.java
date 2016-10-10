@@ -51,7 +51,7 @@ public class Treino {
 
 	private void exercicio3() {
 		int limite = 5;
-		int rand = (new Random()).nextInt(limite);
+		int rand = (new Random()).nextInt(limite) +1 ;
 		int num = 0;
 		for (int i = 1; i <= limite; i++) {
 			System.out.println("Escolha um numero entre 1 a 5");
