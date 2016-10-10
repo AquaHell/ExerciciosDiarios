@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Treino {
 	public Treino() {
-		//exercicio1();
-		//exercicio2();
+		exercicio1();
+		exercicio2();
 		exercicio3();
 	}
 
