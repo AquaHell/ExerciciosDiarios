@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Treino {
 	public Treino() {
-		exercicio1();
-		exercicio2();
+		//exercicio1();
+		//exercicio2();
 		exercicio3();
 	}
 
@@ -53,15 +53,18 @@ public class Treino {
 		int limite = 5;
 		int rand = (new Random()).nextInt(limite);
 		int num = 0;
-
 		for (int i = 1; i <= limite; i++) {
 			System.out.println("Escolha um numero entre 1 a 5");
 			num = (new Scanner(System.in).nextInt());
 			if (num == rand) {
 				System.out.println("Acertou no numero na " + i + " Tentativa");
 				break;
-			} else {
+			} else if(num!=rand && num!=limite){
 				System.out.println("Falhou \nTry Again \nAinda tem "+(limite-i)+" Tentativas");
+			}
+			if (i==limite){
+				System.out.println("Esgotou as hipoteses\nPerdeu");
+				break;
 			}
 		}
 
